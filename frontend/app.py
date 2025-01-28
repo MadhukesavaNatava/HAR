@@ -21,15 +21,36 @@ def get_video_metadata(video_path):
     cap = cv2.VideoCapture(video_path)
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     fps = int(cap.get(cv2.CAP_PROP_FPS))
+    duration = total_frames / fps  # Calculate video duration in seconds
     cap.release()
-    return {"total_frames": total_frames, "fps": fps}
+    return {"total_frames": total_frames, "fps": fps, "duration": duration}
 
 
-# Save the selected frame to a folder
-def save_selected_frame(frame, frame_number):
-    frame_path = f"selected_frames/frame_{frame_number}.jpg"
-    cv2.imwrite(frame_path, frame)
-    return frame_path
+# Extract frames every 6 seconds
+def extract_frames(video_path, interval=6):
+    """Extract frames from the video every 'interval' seconds."""
+    metadata = get_video_metadata(video_path)
+    fps = metadata["fps"]
+    total_frames = metadata["total_frames"]
+    duration = metadata["duration"]
+
+    # Calculate frame numbers to extract
+    frame_numbers = [int(fps * i) for i in range(0, int(duration), interval)]
+
+    # Open video capture
+    cap = cv2.VideoCapture(video_path)
+    extracted_frames = []
+
+    for frame_number in frame_numbers:
+        cap.set(cv2.CAP_PROP_POS_FRAMES, frame_number)
+        ret, frame = cap.read()
+        if ret:
+            frame_path = f"selected_frames/frame_{frame_number}.jpg"
+            cv2.imwrite(frame_path, frame)  # Save the frame
+            extracted_frames.append(frame_path)
+
+    cap.release()
+    return extracted_frames  # Return paths of extracted frames
 
 
 # Process the saved frame or image with a dummy model (replace with actual model logic)
@@ -55,13 +76,17 @@ def upload_page():
             st.video(video_path)
 
             metadata = get_video_metadata(video_path)
-            st.write(f"Total Frames: {metadata['total_frames']}, FPS: {metadata['fps']}")
+            st.write(
+                f"Total Frames: {metadata['total_frames']}, FPS: {metadata['fps']}, Duration: {metadata['duration']} seconds")
 
             st.session_state["video_path"] = video_path
             st.session_state["file_type"] = "video"
 
-            if st.button("Next"):
-                st.session_state["page"] = "playback_controls"
+            if st.button("Extract Frames"):
+                extracted_frames = extract_frames(video_path, interval=6)
+                st.session_state["extracted_frames"] = extracted_frames
+                st.success(f"Extracted {len(extracted_frames)} frames every 6 seconds.")
+                st.session_state["page"] = "frame_review"
 
     elif option == "Image":
         image_file = st.file_uploader("Upload an image file", type=["jpg", "png", "jpeg"])
@@ -71,6 +96,7 @@ def upload_page():
             image = Image.open(image_file)
             st.image(image, caption="Uploaded Image", use_column_width=True)
 
+            # Store image path in session state for further processing
             st.session_state["image_path"] = image_path
             st.session_state["file_type"] = "image"
 
@@ -78,46 +104,30 @@ def upload_page():
                 st.session_state["page"] = "image_prediction"
 
 
-# Playback Controls Page
-def playback_controls_page():
-    st.title("Video Playback Controls")
-    video_path = st.session_state.get("video_path")
+# Frame Review Page
+def frame_review_page():
+    st.title("Review Extracted Frames")
 
-    if video_path:
-        cap = cv2.VideoCapture(video_path)
-        total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+    if "extracted_frames" in st.session_state:
+        frames = st.session_state["extracted_frames"]
 
-        if "current_frame" not in st.session_state:
-            st.session_state["current_frame"] = 0
+        # Display frames and allow the user to select one for prediction
+        selected_frame = st.selectbox("Select a frame for prediction:", frames)
+        if selected_frame:
+            st.image(selected_frame, caption=f"Selected Frame: {os.path.basename(selected_frame)}")
 
-        # Slider for selecting frames
-        st.session_state["current_frame"] = st.slider(
-            "Select Frame", 0, total_frames - 1, st.session_state["current_frame"]
-        )
-
-        # Display the selected frame
-        cap.set(cv2.CAP_PROP_POS_FRAMES, st.session_state["current_frame"])
-        ret, frame = cap.read()
-        if ret:
-            frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-            st.image(frame_rgb, caption=f"Frame {st.session_state['current_frame']}")
-
-            # Save and process the selected frame
-            if st.button("Select This Frame"):
-                frame_path = save_selected_frame(frame, st.session_state["current_frame"])
-                st.success(f"Frame saved to {frame_path}")
-
-                # Process the frame with the model
-                result = process_frame_with_model(frame_path)
+            if st.button("Predict"):
+                # Use the model to predict on the selected frame
+                result = process_frame_with_model(selected_frame)
                 st.write("Model Prediction:", result)
-        else:
-            st.error("Error reading the frame.")
 
-        # Back button
+        # Add a Back button to return to the main upload page
+        if st.button("Back to Main"):
+            st.session_state["page"] = "upload"
+    else:
+        st.error("No frames found. Please upload a video and extract frames first.")
         if st.button("Back"):
             st.session_state["page"] = "upload"
-
-        cap.release()
 
 
 # Image Prediction Page
@@ -131,7 +141,6 @@ def image_prediction_page():
         st.image(image_path, caption="Uploaded Image", use_column_width=True)
         st.write("Model Prediction:", result)
 
-        # Back button
         if st.button("Back"):
             st.session_state["page"] = "upload"
 
@@ -142,7 +151,8 @@ if "page" not in st.session_state:
 
 if st.session_state["page"] == "upload":
     upload_page()
-elif st.session_state["page"] == "playback_controls":
-    playback_controls_page()
+elif st.session_state["page"] == "frame_review":
+    frame_review_page()
 elif st.session_state["page"] == "image_prediction":
     image_prediction_page()
+

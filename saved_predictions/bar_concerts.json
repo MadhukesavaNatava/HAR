@@ -1,0 +1,146 @@
+[
+    {
+        "time_taken": 2.002,
+        "action": "celebrating",
+        "confidence": 0.10706234723329544,
+        "engagement_score": 0.255524855107069,
+        "crowd_density": 0.0511049710214138,
+        "average_movement": 0.0511049710214138,
+        "star_rating": 0.45195332096579177
+    },
+    {
+        "time_taken": 3.0029999999999997,
+        "action": "celebrating",
+        "confidence": 0.2250157743692398,
+        "engagement_score": 0.4012022316455841,
+        "crowd_density": 0.08024044632911682,
+        "average_movement": 0.08024044632911682,
+        "star_rating": 0.45195332096579177
+    },
+    {
+        "time_taken": 4.004,
+        "action": "celebrating",
+        "confidence": 0.30243608355522156,
+        "engagement_score": 0.4491933807730675,
+        "crowd_density": 0.0898386761546135,
+        "average_movement": 0.0898386761546135,
+        "star_rating": 0.45195332096579177
+    },
+    {
+        "time_taken": 5.005,
+        "action": "celebrating",
+        "confidence": 0.13367018103599548,
+        "engagement_score": 0.2873520217835903,
+        "crowd_density": 0.05747040435671806,
+        "average_movement": 0.05747040435671806,
+        "star_rating": 0.45195332096579177
+    },
+    {
+        "time_taken": 6.005999999999999,
+        "action": "headbanging",
+        "confidence": 0.2453967183828354,
+        "engagement_score": 0.4270503781735897,
+        "crowd_density": 0.08541007563471795,
+        "average_movement": 0.08541007563471795,
+        "star_rating": 0.45195332096579177
+    },
+    {
+        "time_taken": 7.007,
+        "action": "celebrating",
+        "confidence": 0.08526983857154846,
+        "engagement_score": 0.28356177918612957,
+        "crowd_density": 0.05671235583722591,
+        "average_movement": 0.05671235583722591,
+        "star_rating": 0.45195332096579177
+    },
+    {
+        "time_taken": 8.008,
+        "action": "headbanging",
+        "confidence": 0.13706693053245544,
+        "engagement_score": 0.31902238354086876,
+        "crowd_density": 0.06380447670817375,
+        "average_movement": 0.06380447670817375,
+        "star_rating": 0.45195332096579177
+    },
+    {
+        "time_taken": 9.008999999999999,
+        "action": "celebrating",
+        "confidence": 0.08425411581993103,
+        "engagement_score": 0.24134315736591816,
+        "crowd_density": 0.04826863147318363,
+        "average_movement": 0.04826863147318363,
+        "star_rating": 0.45195332096579177
+    },
+    {
+        "time_taken": 10.01,
+        "action": "celebrating",
+        "confidence": 0.30068686604499817,
+        "engagement_score": 0.4662036821246147,
+        "crowd_density": 0.09324073642492295,
+        "average_movement": 0.09324073642492295,
+        "star_rating": 0.45195332096579177
+    },
+    {
+        "time_taken": 11.011,
+        "action": "headbanging",
+        "confidence": 0.0906965360045433,
+        "engagement_score": 0.252005398273468,
+        "crowd_density": 0.050401079654693606,
+        "average_movement": 0.050401079654693606,
+        "star_rating": 0.45195332096579177
+    },
+    {
+        "time_taken": 12.011999999999999,
+        "action": "celebrating",
+        "confidence": 0.10319418460130692,
+        "engagement_score": 0.2812274545431137,
+        "crowd_density": 0.05624549090862274,
+        "average_movement": 0.05624549090862274,
+        "star_rating": 0.45195332096579177
+    },
+    {
+        "time_taken": 13.013,
+        "action": "robot dancing",
+        "confidence": 0.061634961515665054,
+        "engagement_score": 0.2058913502842188,
+        "crowd_density": 0.041178270056843755,
+        "average_movement": 0.041178270056843755,
+        "star_rating": 0.45195332096579177
+    },
+    {
+        "time_taken": 14.014,
+        "action": "celebrating",
+        "confidence": 0.09483353793621063,
+        "engagement_score": 0.31729281693696976,
+        "crowd_density": 0.06345856338739395,
+        "average_movement": 0.06345856338739395,
+        "star_rating": 0.45195332096579177
+    },
+    {
+        "time_taken": 15.014999999999999,
+        "action": "headbanging",
+        "confidence": 0.07559853047132492,
+        "engagement_score": 0.3073308989405632,
+        "crowd_density": 0.06146617978811264,
+        "average_movement": 0.06146617978811264,
+        "star_rating": 0.45195332096579177
+    },
+    {
+        "time_taken": 16.016,
+        "action": "celebrating",
+        "confidence": 0.08945050090551376,
+        "engagement_score": 0.24908971413969994,
+        "crowd_density": 0.049817942827939984,
+        "average_movement": 0.049817942827939984,
+        "star_rating": 0.45195332096579177
+    },
+    {
+        "time_taken": 17.017,
+        "action": "robot dancing",
+        "confidence": 0.044802937656641006,
+        "engagement_score": 0.17614555545151234,
+        "crowd_density": 0.03522911109030247,
+        "average_movement": 0.03522911109030247,
+        "star_rating": 0.45195332096579177
+    }
+]

@@ -1,0 +1,236 @@
+[
+    {
+        "time_taken": 2.0,
+        "action": "celebrating",
+        "confidence": 0.1544860154390335,
+        "engagement_score": 0.30217217840254307,
+        "crowd_density": 0.060434435680508616,
+        "average_movement": 0.060434435680508616,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 2.033333333333333,
+        "action": "celebrating",
+        "confidence": 0.18855011463165283,
+        "engagement_score": 0.3388225734233856,
+        "crowd_density": 0.06776451468467712,
+        "average_movement": 0.06776451468467712,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 3.0,
+        "action": "celebrating",
+        "confidence": 0.17003005743026733,
+        "engagement_score": 0.302405022084713,
+        "crowd_density": 0.060481004416942596,
+        "average_movement": 0.060481004416942596,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 3.033333333333333,
+        "action": "celebrating",
+        "confidence": 0.13419416546821594,
+        "engagement_score": 0.24486576579511166,
+        "crowd_density": 0.04897315315902233,
+        "average_movement": 0.04897315315902233,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 4.0,
+        "action": "celebrating",
+        "confidence": 0.15927408635616302,
+        "engagement_score": 0.2468724101781845,
+        "crowd_density": 0.0493744820356369,
+        "average_movement": 0.0493744820356369,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 4.033333333333333,
+        "action": "celebrating",
+        "confidence": 0.10445800423622131,
+        "engagement_score": 0.2054624855518341,
+        "crowd_density": 0.04109249711036682,
+        "average_movement": 0.04109249711036682,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 5.0,
+        "action": "celebrating",
+        "confidence": 0.09966772049665451,
+        "engagement_score": 0.28614367358386517,
+        "crowd_density": 0.05722873471677303,
+        "average_movement": 0.05722873471677303,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 5.033333333333333,
+        "action": "celebrating",
+        "confidence": 0.16947238147258759,
+        "engagement_score": 0.276825875043869,
+        "crowd_density": 0.055365175008773804,
+        "average_movement": 0.055365175008773804,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 6.0,
+        "action": "celebrating",
+        "confidence": 0.16325856745243073,
+        "engagement_score": 0.33679194934666157,
+        "crowd_density": 0.06735838986933232,
+        "average_movement": 0.06735838986933232,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 6.033333333333333,
+        "action": "celebrating",
+        "confidence": 0.16421355307102203,
+        "engagement_score": 0.2706829998642206,
+        "crowd_density": 0.054136599972844125,
+        "average_movement": 0.054136599972844125,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 7.0,
+        "action": "celebrating",
+        "confidence": 0.0659865215420723,
+        "engagement_score": 0.1845542024821043,
+        "crowd_density": 0.03691084049642086,
+        "average_movement": 0.03691084049642086,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 7.033333333333333,
+        "action": "celebrating",
+        "confidence": 0.060549624264240265,
+        "engagement_score": 0.14467930421233177,
+        "crowd_density": 0.028935860842466354,
+        "average_movement": 0.028935860842466354,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 8.0,
+        "action": "celebrating",
+        "confidence": 0.12771181762218475,
+        "engagement_score": 0.23220186866819859,
+        "crowd_density": 0.04644037373363972,
+        "average_movement": 0.04644037373363972,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 8.033333333333333,
+        "action": "celebrating",
+        "confidence": 0.06557253748178482,
+        "engagement_score": 0.21011600457131863,
+        "crowd_density": 0.042023200914263724,
+        "average_movement": 0.042023200914263724,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 9.0,
+        "action": "celebrating",
+        "confidence": 0.07190007716417313,
+        "engagement_score": 0.1882041171193123,
+        "crowd_density": 0.037640823423862456,
+        "average_movement": 0.037640823423862456,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 9.033333333333333,
+        "action": "celebrating",
+        "confidence": 0.11459515988826752,
+        "engagement_score": 0.2567234579473734,
+        "crowd_density": 0.051344691589474675,
+        "average_movement": 0.051344691589474675,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 10.0,
+        "action": "celebrating",
+        "confidence": 0.13507479429244995,
+        "engagement_score": 0.2639367841184139,
+        "crowd_density": 0.05278735682368278,
+        "average_movement": 0.05278735682368278,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 10.033333333333333,
+        "action": "celebrating",
+        "confidence": 0.169580340385437,
+        "engagement_score": 0.3285229839384556,
+        "crowd_density": 0.06570459678769111,
+        "average_movement": 0.06570459678769111,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 11.0,
+        "action": "celebrating",
+        "confidence": 0.09994050115346909,
+        "engagement_score": 0.2720905411988497,
+        "crowd_density": 0.05441810823976993,
+        "average_movement": 0.05441810823976993,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 11.033333333333333,
+        "action": "celebrating",
+        "confidence": 0.0726943090558052,
+        "engagement_score": 0.23278408870100975,
+        "crowd_density": 0.04655681774020195,
+        "average_movement": 0.04655681774020195,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 12.0,
+        "action": "celebrating",
+        "confidence": 0.07005719840526581,
+        "engagement_score": 0.219971077516675,
+        "crowd_density": 0.043994215503335,
+        "average_movement": 0.043994215503335,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 12.033333333333333,
+        "action": "celebrating",
+        "confidence": 0.13539312779903412,
+        "engagement_score": 0.30767709761857986,
+        "crowd_density": 0.061535419523715974,
+        "average_movement": 0.061535419523715974,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 13.0,
+        "action": "celebrating",
+        "confidence": 0.1191919595003128,
+        "engagement_score": 0.2403899021446705,
+        "crowd_density": 0.048077980428934096,
+        "average_movement": 0.048077980428934096,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 13.033333333333333,
+        "action": "celebrating",
+        "confidence": 0.1742582619190216,
+        "engagement_score": 0.3264753296971321,
+        "crowd_density": 0.06529506593942642,
+        "average_movement": 0.06529506593942642,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 14.0,
+        "action": "celebrating",
+        "confidence": 0.10022281855344772,
+        "engagement_score": 0.25542739033699036,
+        "crowd_density": 0.05108547806739807,
+        "average_movement": 0.05108547806739807,
+        "star_rating": 0.39180733776436405
+    },
+    {
+        "time_taken": 14.033333333333333,
+        "action": "celebrating",
+        "confidence": 0.10661783069372177,
+        "engagement_score": 0.22813790664076805,
+        "crowd_density": 0.04562758132815361,
+        "average_movement": 0.04562758132815361,
+        "star_rating": 0.39180733776436405
+    }
+]

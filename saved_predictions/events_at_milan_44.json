@@ -1,0 +1,308 @@
+[
+    {
+        "time_taken": 2.0,
+        "action": "trimming trees",
+        "confidence": 0.05310990288853645,
+        "engagement_score": 0.143286544829607,
+        "crowd_density": 0.0286573089659214,
+        "average_movement": 0.0286573089659214,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 3.0,
+        "action": "archery",
+        "confidence": 0.04988258332014084,
+        "engagement_score": 0.13420064095407724,
+        "crowd_density": 0.026840128190815448,
+        "average_movement": 0.026840128190815448,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 4.0,
+        "action": "climbing tree",
+        "confidence": 0.02721964381635189,
+        "engagement_score": 0.09667998179793358,
+        "crowd_density": 0.019335996359586716,
+        "average_movement": 0.019335996359586716,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 5.0,
+        "action": "climbing tree",
+        "confidence": 0.03171513229608536,
+        "engagement_score": 0.13247071206569672,
+        "crowd_density": 0.026494142413139344,
+        "average_movement": 0.026494142413139344,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 6.0,
+        "action": "trimming trees",
+        "confidence": 0.04192693531513214,
+        "engagement_score": 0.14006947726011276,
+        "crowd_density": 0.028013895452022552,
+        "average_movement": 0.028013895452022552,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 7.0,
+        "action": "rock climbing",
+        "confidence": 0.024048738181591034,
+        "engagement_score": 0.11374040506780148,
+        "crowd_density": 0.022748081013560295,
+        "average_movement": 0.022748081013560295,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 8.0,
+        "action": "trimming trees",
+        "confidence": 0.045938823372125626,
+        "engagement_score": 0.17087863385677338,
+        "crowd_density": 0.03417572677135468,
+        "average_movement": 0.03417572677135468,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 8.04,
+        "action": "rock climbing",
+        "confidence": 0.03987664356827736,
+        "engagement_score": 0.14848340675234795,
+        "crowd_density": 0.02969668135046959,
+        "average_movement": 0.02969668135046959,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 9.0,
+        "action": "trimming trees",
+        "confidence": 0.045733802020549774,
+        "engagement_score": 0.17258084937930107,
+        "crowd_density": 0.03451616987586022,
+        "average_movement": 0.03451616987586022,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 9.04,
+        "action": "rock climbing",
+        "confidence": 0.04195297509431839,
+        "engagement_score": 0.16373246349394321,
+        "crowd_density": 0.03274649269878864,
+        "average_movement": 0.03274649269878864,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 10.0,
+        "action": "rock climbing",
+        "confidence": 0.02341417223215103,
+        "engagement_score": 0.10359108820557594,
+        "crowd_density": 0.02071821764111519,
+        "average_movement": 0.02071821764111519,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 10.04,
+        "action": "trimming trees",
+        "confidence": 0.030109427869319916,
+        "engagement_score": 0.12747932597994804,
+        "crowd_density": 0.02549586519598961,
+        "average_movement": 0.02549586519598961,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 11.0,
+        "action": "trimming trees",
+        "confidence": 0.028010228648781776,
+        "engagement_score": 0.11316588334739208,
+        "crowd_density": 0.022633176669478415,
+        "average_movement": 0.022633176669478415,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 11.04,
+        "action": "climbing tree",
+        "confidence": 0.028101379051804543,
+        "engagement_score": 0.11839440371841192,
+        "crowd_density": 0.023678880743682386,
+        "average_movement": 0.023678880743682386,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 12.0,
+        "action": "climbing tree",
+        "confidence": 0.02042444609105587,
+        "engagement_score": 0.09447040036320686,
+        "crowd_density": 0.018894080072641373,
+        "average_movement": 0.018894080072641373,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 12.04,
+        "action": "climbing tree",
+        "confidence": 0.02750590071082115,
+        "engagement_score": 0.09931707940995693,
+        "crowd_density": 0.019863415881991385,
+        "average_movement": 0.019863415881991385,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 13.0,
+        "action": "trimming trees",
+        "confidence": 0.02722240425646305,
+        "engagement_score": 0.11860505491495132,
+        "crowd_density": 0.023721010982990266,
+        "average_movement": 0.023721010982990266,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 13.04,
+        "action": "trimming trees",
+        "confidence": 0.02235625870525837,
+        "engagement_score": 0.10695322416722775,
+        "crowd_density": 0.02139064483344555,
+        "average_movement": 0.02139064483344555,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 14.0,
+        "action": "barbequing",
+        "confidence": 0.026794977486133575,
+        "engagement_score": 0.10909377969801426,
+        "crowd_density": 0.021818755939602853,
+        "average_movement": 0.021818755939602853,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 14.04,
+        "action": "trimming trees",
+        "confidence": 0.027406128123402596,
+        "engagement_score": 0.11108348332345486,
+        "crowd_density": 0.02221669666469097,
+        "average_movement": 0.02221669666469097,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 15.0,
+        "action": "trimming trees",
+        "confidence": 0.03938260301947594,
+        "engagement_score": 0.1563934050500393,
+        "crowd_density": 0.03127868101000786,
+        "average_movement": 0.03127868101000786,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 15.04,
+        "action": "rock climbing",
+        "confidence": 0.03946654871106148,
+        "engagement_score": 0.15764571353793144,
+        "crowd_density": 0.03152914270758629,
+        "average_movement": 0.03152914270758629,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 16.0,
+        "action": "trimming trees",
+        "confidence": 0.03339780867099762,
+        "engagement_score": 0.13386078737676144,
+        "crowd_density": 0.026772157475352287,
+        "average_movement": 0.026772157475352287,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 16.04,
+        "action": "trimming trees",
+        "confidence": 0.03157971054315567,
+        "engagement_score": 0.12798453494906425,
+        "crowd_density": 0.025596906989812852,
+        "average_movement": 0.025596906989812852,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 17.0,
+        "action": "playing paintball",
+        "confidence": 0.030247585847973824,
+        "engagement_score": 0.12360440194606781,
+        "crowd_density": 0.02472088038921356,
+        "average_movement": 0.02472088038921356,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 17.04,
+        "action": "playing paintball",
+        "confidence": 0.0261152945458889,
+        "engagement_score": 0.12090872600674629,
+        "crowd_density": 0.024181745201349258,
+        "average_movement": 0.024181745201349258,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 18.0,
+        "action": "climbing tree",
+        "confidence": 0.030290180817246437,
+        "engagement_score": 0.12634947896003723,
+        "crowd_density": 0.025269895792007446,
+        "average_movement": 0.025269895792007446,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 18.04,
+        "action": "trimming trees",
+        "confidence": 0.03294742479920387,
+        "engagement_score": 0.12482887879014015,
+        "crowd_density": 0.024965775758028032,
+        "average_movement": 0.024965775758028032,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 19.0,
+        "action": "climbing tree",
+        "confidence": 0.045092638581991196,
+        "engagement_score": 0.15803799033164978,
+        "crowd_density": 0.031607598066329956,
+        "average_movement": 0.031607598066329956,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 19.04,
+        "action": "climbing tree",
+        "confidence": 0.03311116248369217,
+        "engagement_score": 0.12495739571750164,
+        "crowd_density": 0.024991479143500327,
+        "average_movement": 0.024991479143500327,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 20.0,
+        "action": "rock climbing",
+        "confidence": 0.05185861513018608,
+        "engagement_score": 0.14573493972420692,
+        "crowd_density": 0.029146987944841385,
+        "average_movement": 0.029146987944841385,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 20.04,
+        "action": "climbing tree",
+        "confidence": 0.03355052322149277,
+        "engagement_score": 0.12871861271560192,
+        "crowd_density": 0.025743722543120386,
+        "average_movement": 0.025743722543120386,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 21.0,
+        "action": "trimming trees",
+        "confidence": 0.023465726524591446,
+        "engagement_score": 0.10542650334537029,
+        "crowd_density": 0.021085300669074058,
+        "average_movement": 0.021085300669074058,
+        "star_rating": 0.03711225758580601
+    },
+    {
+        "time_taken": 21.04,
+        "action": "abseiling",
+        "confidence": 0.029183005914092064,
+        "engagement_score": 0.12245247885584831,
+        "crowd_density": 0.024490495771169664,
+        "average_movement": 0.024490495771169664,
+        "star_rating": 0.03711225758580601
+    }
+]

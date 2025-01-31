@@ -66,6 +66,8 @@ st.markdown("""
 def process_frame_with_model():
     return np.random.uniform(0, 1)  # Simulated confidence score
 
+
+
 # Helper function: Save uploaded file to a temporary directory
 def save_uploaded_file(uploaded_file):
     temp_file = tempfile.NamedTemporaryFile(delete=False)
@@ -218,3 +220,25 @@ elif st.session_state["page"] == "main":
     main_page()
 elif st.session_state["page"] == "analysis":
     process_video(st.session_state["video_path"], st.session_state["video_type"])
+import tensorflow as tf
+import streamlit as st
+
+# Use st.cache to load the model only once
+@st.cache(allow_output_mutation=True)
+def load_model():
+    model = tf.saved_model.load('C:/Users/moi/Downloads/saved_model.pb')
+    return model
+
+model = load_model()
+
+# Assuming the model has a default serving signature
+def predict(input_data):
+    infer = model.signatures['serving_default']
+    output = infer(tf.constant(input_data))['output_key']  # adjust 'output_key' based on your model's output
+    return output.numpy()
+
+# Add a button in Streamlit to make predictions
+input_data = st.text_input("Enter input data here")
+if st.button("Predict"):
+    result = predict([input_data])  # Adjust input format based on your model needs
+    st.write("Prediction:", result)
